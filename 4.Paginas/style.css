@@ -1,9 +1,9 @@
-@import url("tipografia.css");
+@import url("../1.Atomos/colores.css");
 
 /*import de tipografia¨*/
-@import url("colores.css");
+@import url("../1.Atomos/tipografia.css");
 
-@import url("botones.css");
+@import url("./botones.css");
 
 
 

@@ -1,4 +1,5 @@
 @import url("colores.css");
+@import url('https://fonts.googleapis.com/css2?family=Sarabun');
 :root{
     /*Fuente*/
     --font--fuente--principal:'Sarabun';
@@ -152,10 +153,15 @@ p{
 }
 
 .button{
-  font-size: var(--font--size--button);/*tamaño*/
-  font-weight: var(--font--weight--bold);/*weight*/
-  line-height:100%; /*interlineado*/
-  letter-spacing: var(--font-tracking-button);/*tracking*/
+    color: var(--neutral-escala-grises-10, #F5F5F5);
+    text-align: center;
+    /* Comun/Boton */
+    font-family: Sarabun;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+    letter-spacing: 0.352px;
 
 }
 .label{
