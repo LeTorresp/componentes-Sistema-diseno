@@ -68,10 +68,14 @@ ion-icon {
 .Controlador button {
     border: none;
     background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Controlador button span {
     color: var(--color--main)
+
 }
 
 .Controlador a {

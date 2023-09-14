@@ -46,9 +46,10 @@
     gap:24px;
 }
 .Card-vertical__Cont img{
-    width:350px;
+    width:300px;
     height: 250px;
     object-fit:cover;
+   
 }
 
 
@@ -106,7 +107,7 @@
     gap:24px;
 }
 .Card-horizontal__Cont img{
-    width:350px;
+    width:250px;
     height: 250px;
     object-fit:cover;
 }

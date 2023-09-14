@@ -39,7 +39,7 @@ var swiper = new Swiper(".Interes", {
     slidesPerView:1,
     autoplay: true,
     freeMode: true,
-    speed: 1500,
+    speed: 1000,
     loop: true,
     rewind: true,
     effect:'fade',
