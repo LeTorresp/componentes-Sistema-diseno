@@ -3,7 +3,7 @@
 /*import de tipografia¨*/
 @import url("../1.Atomos/tipografia.css");
 
-@import url("./botones.css");
+@import url("../2.Moleculas/botones/botones-style.css");
 
 
 
@@ -116,7 +116,7 @@ ion-icon {
 
 .logo .logo-img {
     display: block;
-    width: 80%;
+    width: 0%;
     height: auto;
  
 }
@@ -179,6 +179,8 @@ ion-icon {
     align-items: center;
     background-color: var(--color--bakcground--naranja);
     z-index: 0;
+    height:fit-content;
+    padding-bottom: -20px;
 }
 
 
