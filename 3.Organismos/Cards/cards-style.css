@@ -1,0 +1,138 @@
+/*import de colores¨*/
+@import url("../../1.Atomos/colores.css");
+
+/*import de tipografia¨*/
+@import url("../../1.Atomos/tipografia.css");
+
+.Container-cards{
+    
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        gap: 40px;
+        flex-wrap: wrap;
+        width:auto;
+        padding: 10px;
+
+        margin: 50px 0px;
+    
+}
+
+
+.Card__vertical{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px 16px;
+    background-color: var(--color--neutral--0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 1s;
+    gap:24px
+}
+
+
+.Card__vertical:hover {
+    -webkit-transform: scale(1.01);
+    background-color: var(--color--bakcground--naranja);
+}
+
+.Card-vertical__Cont{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.Card-vertical__Cont img{
+    width:350px;
+    height: 250px;
+    object-fit:cover;
+}
+
+
+.Card-vertical__Cont h3 {
+    text-align: left !important;
+    color: #515151;
+    margin: 0px;
+}
+
+.Card-vertical__Cont p {
+    margin: 0px;
+    color: var(--color--neutral--80, #666); 
+    /* Desktop/Parrafo L */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.288px;
+}
+
+.Card-vertical__Cont--button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:32px
+}
+
+
+/* cards Horizontales */
+
+.Card__horizontal{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px 16px;
+    background-color: var(--color--neutral--0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 1s;
+    gap:24px
+}
+
+
+.Card__horizontal:hover {
+    -webkit-transform: scale(1.01);
+    background-color: var(--color--bakcground--naranja);
+}
+
+.Card-horizontal__Cont{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.Card-horizontal__Cont img{
+    width:350px;
+    height: 250px;
+    object-fit:cover;
+}
+
+
+.Card-horizontal__Cont h3 {
+    text-align: left !important;
+    color: #515151;
+    margin: 0px;
+}
+
+.Card-horizontal__Cont p {
+    margin: 0px;
+    color: var(--color--neutral--80, #666); 
+    /* Desktop/Parrafo L */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.288px;
+}
+
+.Card-horizontal__Cont--button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:32px
+}
