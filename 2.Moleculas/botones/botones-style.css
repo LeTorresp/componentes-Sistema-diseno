@@ -23,8 +23,16 @@
     color: #ff6600;
 }
 
+.titulo--dark {
+    text-align: center;
+    color: #FF9D5C;
+
+}
+
 .container-dark{
     background: var(--complementarios-dark-background, #1C1F2B);
+    padding: 15px 0px ;
+    margin-top: 15px;
 
 }
 
