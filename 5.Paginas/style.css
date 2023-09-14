@@ -183,8 +183,12 @@ ion-icon {
     align-items: center;
     background-color: var(--color--bakcground--naranja);
     z-index: 0;
-    height:fit-content;
-    padding-bottom: -20px;
+  
+    
+}
+
+.fa-pause{
+    margin-top: 8px !important;
 }
 
 
@@ -205,9 +209,10 @@ ion-icon {
     letter-spacing: 0.018em;
 }
 
-.Cont__banner {}
+
 
 .Cont__banner img {
+    margin-bottom: -10px;
     height: fit-content;
     max-height: max-content;
 
