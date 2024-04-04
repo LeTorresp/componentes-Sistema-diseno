@@ -6,6 +6,10 @@ var swiper = new Swiper(".Interes", {
       el: ".swiper-pagination",
       dynamicBullets: true,
     },
+    navigation: {
+      nextEl: '.Siguiente-carrusel',
+      prevEl: '.anterior-carrusel',
+  },
     slidesPerView:2,
     autoplay: true,
     freeMode: true,
@@ -15,11 +19,19 @@ var swiper = new Swiper(".Interes", {
 
   });
 
+
+
+
   var swiper2 = new Swiper(".Informacion", {
     pagination: {
       el: ".swiper-pagination",
       dynamicBullets: true,
     },
+    navigation: {
+      nextEl: '.Siguiente-carrusel-2',
+      prevEl: '.anterior-carrusel-2',
+      
+  },
     slidesPerView:4,
     autoplay: true,
     freeMode: true,
@@ -33,15 +45,24 @@ var swiper = new Swiper(".Interes", {
   
   var swiper3 = new Swiper(".Banner", {
     pagination: {
-      el: ".swiper-pagination",
-      dynamicBullets: true,
+        el: ".swiper-pagination",
+        dynamicBullets: true,
     },
-    slidesPerView:1,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    slidesPerView: 1,
     autoplay: true,
     freeMode: true,
     speed: 1000,
-    loop: true,
     rewind: true,
-    effect:'fade',
+    effect: 'fade',
   
   });
+
+
+  
+ 
+
+

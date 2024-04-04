@@ -13,7 +13,6 @@
         flex-wrap: wrap;
         width:auto;
         padding: 10px;
-
         margin: 50px 0px;
     
 }
@@ -65,7 +64,7 @@
     /* Desktop/Parrafo L */
     font-size: 16px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 300 !important;
     line-height: 150%; /* 24px */
     letter-spacing: 0.288px;
 }
@@ -125,7 +124,7 @@
     /* Desktop/Parrafo L */
     font-size: 16px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 300 !important;
     line-height: 150%; /* 24px */
     letter-spacing: 0.288px;
 }

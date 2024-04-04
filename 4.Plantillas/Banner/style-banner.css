@@ -1,0 +1,107 @@
+
+@import url("../../1.Atomos/colores.css");
+
+/*import de tipografia¨*/
+@import url("../../1.Atomos/tipografia.css");
+
+@import url("../../2.Moleculas/botones/botones-style.css");
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.swiper-pagination-bullet {
+    background-color: var(--color--main);
+    opacity: 0.24;
+}
+
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+.swiper-button-prev ,.swiper-button-next{
+    background-color: var(--color--main);
+    padding:12px !important;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+font-size: 20px !important;
+}
+
+.Banner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color--bakcground--naranja);
+    z-index: 0;
+    gap:30px;
+    
+}
+.Banner-FondoAzul{
+    background-color: var(--color--bakcground--azul);
+}
+
+.fa-pause{
+    margin-top: 8px !important;
+}
+
+.Cont__banner{
+width: 50%;
+height: auto;
+}
+.Cont__banner-Texto {
+    display: flex;
+    flex-direction: column;
+    padding-left: 128px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Cont__banner-Texto h2 {
+    color: black;
+}
+
+.Cont__banner-Texto p {
+    color: black;
+    padding: 32px 0px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.018em;
+}
+
+
+
+.Cont__banner img {
+    width: 100%;
+    border-radius: 300px 0px 0px 300px;
+    margin-bottom: -10px;
+    height: fit-content;
+    max-height: max-content;
+
+}
+
+.button-banner span {
+    margin-left: 16px;
+}

@@ -1,14 +1,14 @@
 @import url("colores.css");
-@import url('https://fonts.googleapis.com/css2?family=Sarabun');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
     /*Fuente*/
-    --font--fuente--principal:'Sarabun';
+    --font--fuente--principal:'Montserrat';
     
     /*weight*/
     --font--weight--bold:700;
     --font--weight--semibold:600;
     --font--weight--medium:500;
-    --font--weight--regular:400;
+    --font--weight--regular:300;
     --font--weight--light:300;
     --font--weight--extralight:200;
     --font--weight--thin:100;
@@ -128,7 +128,7 @@ h6{
 /*Comun*/
 
 p{
-  font-weight: var(--font--weight--regular);/*weight*/
+  font-weight: var(--font--weight--regular) !important;/*weight*/
 }
 
 .p-xl{
@@ -156,7 +156,7 @@ p{
     color: var(--neutral-escala-grises-10, #F5F5F5);
     text-align: center;
     /* Comun/Boton */
-    font-family: Sarabun;
+    font-family: var(--font--fuente--principal),sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
